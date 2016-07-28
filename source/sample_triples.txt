@@ -1,0 +1,6 @@
+A	“<Tom> <hasMother> <Jane>”	E1
+B	“<Tom> <hasFather> <Jason>”	E2
+C	“<Jane> <hasSpouse> <Jason>”	L1
+D	“<Jason> <type> <Man>”	E3
+E	“<Jane> <type> <Woman>”	L2
+F	“<Jane> <type> <Mother>”	E4

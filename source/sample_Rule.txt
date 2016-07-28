@@ -1,0 +1,3 @@
+R1	“hasMother(?x,?y) ^ hasFather(?x,?z) :- hasSpouse(?y, ?z)”
+R2	“hasSpouse(?X,?Y) ^ Man(?x) :- Woman(?y)”
+R3	“Mother(?y) :- Woman(?y)”

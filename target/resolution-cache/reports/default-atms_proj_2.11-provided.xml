@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="atms_proj_2.11"
+		revision="1.0"
+		conf="provided"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160712154444"/>
+	<dependencies>
+		<module organisation="spark.jobserver" name="job-server-api_2.11">
+			<revision name="0.6.1" status="release" pubdate="20151126090636" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spark-jobserver/spark-jobserver" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache-2.0" url="http://choosealicense.com/licenses/apache/"/>
+				<metadata-artifact status="no" details="" size="3320" time="0" location="/Users/MJ/.ivy2/cache/spark.jobserver/job-server-api_2.11/ivy-0.6.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/spark/jobserver/job-server-api_2.11/0.6.1/job-server-api_2.11-0.6.1.pom"/>
+				<caller organisation="default" name="atms_proj_2.11" conf="provided" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="job-server-api_2.11" type="jar" ext="jar" status="no" details="" size="17422" time="0" location="/Users/MJ/.ivy2/cache/spark.jobserver/job-server-api_2.11/jars/job-server-api_2.11-0.6.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/spark/jobserver/job-server-api_2.11/0.6.1/job-server-api_2.11-0.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.1" status="release" pubdate="20140502235416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2734" time="0" location="/Users/MJ/.ivy2/cache/com.typesafe/config/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
+				<caller organisation="spark.jobserver" name="job-server-api_2.11" conf="default, compile, runtime, master" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="219554" time="0" location="/Users/MJ/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-all">
+			<revision name="4.0.23.Final" status="release" pubdate="20140816030640" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<metadata-artifact status="no" details="" size="15751" time="0" location="/Users/MJ/.ivy2/cache/io.netty/netty-all/ivy-4.0.23.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.pom"/>
+				<caller organisation="spark.jobserver" name="job-server-api_2.11" conf="default, compile, runtime, master" rev="4.0.23.Final" rev-constraint-default="4.0.23.Final" rev-constraint-dynamic="4.0.23.Final" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="netty-all" type="jar" ext="jar" status="no" details="" size="1779991" time="0" location="/Users/MJ/.ivy2/cache/io.netty/netty-all/jars/netty-all-4.0.23.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.6" status="release" pubdate="20150226100105" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.6/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/MJ/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.pom"/>
+				<caller organisation="spark.jobserver" name="job-server-api_2.11" conf="default, compile, runtime, master" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="0.6.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5564007" time="0" location="/Users/MJ/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
